@@ -1,5 +1,7 @@
 import { TextField, Button } from "@mui/material"
 import { useForm } from "react-hook-form";
+// import { DASHBOARD_PATH, PRODUCT_PATH, REPORT_PATH, SETTING_PATH  } from './config/constants'
+
 
 const Login = () => {
   // useForm hook
@@ -9,6 +11,10 @@ const Login = () => {
   const onSubmit = (data: any) => {
     console.log(data)
   }
+
+  // Set title
+  // document.title = `LOGIN_TITLE | SYSTEM_NAME`
+
   return (
     <>
         <h1>Login</h1>
